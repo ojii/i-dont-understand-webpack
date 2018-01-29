@@ -1,0 +1,13 @@
+{
+  "name": "hoge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "dependency": "file:npm/dependency/",
+    "shared": "file:npm/shared/"
+  }
+}
